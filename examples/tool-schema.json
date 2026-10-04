@@ -1,0 +1,15 @@
+{
+  "name": "submit_video",
+  "description": "Submit one validated video job to Argolink",
+  "inputSchema": {
+    "type": "object",
+    "required": ["model", "prompt"],
+    "properties": {
+      "model": {"type": "string"},
+      "prompt": {"type": "string"},
+      "duration": {"type": "integer"},
+      "resolution": {"type": "string"},
+      "aspect_ratio": {"type": "string"}
+    }
+  }
+}
