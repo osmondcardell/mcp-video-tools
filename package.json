@@ -1,0 +1,12 @@
+{
+  "name": "mcp-video-tools",
+  "version": "1.0.0",
+  "description": "Stdio MCP server for asynchronous video generation APIs: list models, submit, poll, download, upload",
+  "type": "module",
+  "bin": { "mcp-video-tools": "server.mjs" },
+  "files": ["server.mjs"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.mjs", "test": "node --test" },
+  "keywords": ["mcp", "model-context-protocol", "video-generation", "seedance", "minimax-h3", "wan-3", "claude-code", "cursor"],
+  "license": "MIT"
+}
